@@ -1,0 +1,47 @@
+.globalFilter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 5px;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  input {
+    margin-left: 5px;
+    width: 250px;
+    height: 25px;
+    font-size: 17px;
+  }
+  p {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+.dashboardTable {
+  border: 1px solid grey;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  tr{
+    cursor: pointer;
+  }
+  td {
+    border: 1px solid grey;
+    padding: 3px 8px;
+  }
+}
+thead{
+    th{
+        padding:8px;
+    }
+    tr{
+      background-color: #037BA5;  
+    }
+}
+tbody{
+    tr:nth-child(2n){
+        background-color: #BED9EA;
+    }
+    tr:hover{
+        background-color: #4EA5C6;
+    }
+}

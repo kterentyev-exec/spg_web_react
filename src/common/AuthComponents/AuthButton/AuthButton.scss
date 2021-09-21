@@ -1,0 +1,24 @@
+.auth_button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  height: auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  button {
+    margin: 10px 0;
+    width: 150px;
+    height: 36px;
+    border-radius: 17px;
+    font-size: 16px;
+    cursor: pointer;
+
+    border: 0;
+    background-color: #ffdedd;
+    &:hover {
+      transition: 0.3s;
+      background-color: #ff5a56;
+    }
+  }
+}

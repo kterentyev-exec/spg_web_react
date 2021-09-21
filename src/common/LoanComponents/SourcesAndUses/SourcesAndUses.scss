@@ -1,0 +1,25 @@
+.widget{
+  display: inline-block;
+  margin: 10px 5px;
+}
+.widget_label{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    background-color: #bbd8eb;
+    border-radius: 15px 15px 0 0;
+    padding: 4px;
+  box-sizing: border-box;
+}
+.sAndUtable{
+    position: relative;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 300px;
+    text-align: center;
+    // border-radius: 5% 5% 0 0;
+    font-size: 13px;
+    // thead{
+    //     background-color: rgba(187, 216, 235, 0.6);
+    // }
+}
